@@ -1,3 +1,4 @@
+import AnkHubLogo from '../images/AnkHubLogo.jpg'
 export const Bio = {
   name: "Manav Lohabade",
   roles: [
@@ -220,7 +221,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://ankhub.in/wp-content/uploads/2022/07/Logo-png-2048x1307.png",
+    img: AnkHubLogo,
     role: "Jr. Software Engineer Intern",
     company: "AnkHub Technology Services",
     date: "Dec 2024 - Present",
@@ -347,11 +348,12 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "AlgorithmXlr8",
+    title: "Uber End-to-End Clone",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image: "https://nullsignal.games/wp-content/uploads/2022/10/Nfinity-Account-Siphon.jpg",
+      "A full-stack web app that mimics Uber's functionality. Users can book rides, track them in real-time, and pay for them using the app. The app also includes a driver's view, where drivers can accept rides and navigate to the user's location.",
+    image: 
+    "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
@@ -364,7 +366,7 @@ export const projects = [
     description:
       "UPI payment backend, built on Spring Boot and Microservices, integrates design patterns for streamlined operations and security.",
     image:
-      "https://static.wikia.nocookie.net/black-plasma-studios/images/a/ad/Null_-_Profile.jpg/revision/latest/scale-to-width-down/350?cb=20170612234434",
+      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -382,7 +384,7 @@ export const projects = [
     description:
     "Made a railway app like India's own, with all the features you'd expect. Book tickets, check schedules, and travel hassle-free",
     image:
-      "https://user-images.githubusercontent.com/85048574/164957242-6b476520-dbff-4419-a825-e054e6caf26c.png",
+      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -400,7 +402,7 @@ export const projects = [
     description:
       "Built a flight booking app for easy travel planning. Book seats, check flights – all in one place",
     image:
-      "https://i.ytimg.com/vi/dtTkuy_Jpy8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAYoyggQWDAHKy9vbwvcR2yQOdgOQ",
+      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -420,7 +422,7 @@ export const projects = [
     description:
       "Meet Movi Mate: Your go-to for movies. Find, book, and enjoy your favorite films effortlessly.",
     image:
-      "https://miro.medium.com/v2/resize:fit:1200/1*YikEKg0FVtYuSHSKws7SKg.png",
+     "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -438,7 +440,8 @@ export const projects = [
     date: "Jun 2021",
     description:
       " Meet our Hotel Management System: It handles everything from bookings to checkouts. Easily manage reservations, room assignments, and guest services, making hotel operations smooth as silk.",
-    image: "https://i.ytimg.com/vi/FCCVSvrJLmo/maxresdefault.jpg",
+    image:
+     "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -456,7 +459,7 @@ export const projects = [
     description:
     "A versatile payment application inspired by the original. With features like money transfer, bill splitting, shopping, rewards, and intuitive financial management, our app mirrors the convenience and functionality of Google Pay, ensuring seamless transactions for users",
     image:
-    "https://i.pcmag.com/imagery/reviews/07y0CcC1S2BwbOvOlSKXTtT-9.fit_lim.size_840x473.v1569478436.png",
+    "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Apache Camel",
       "Spring Framework",
@@ -474,7 +477,7 @@ export const projects = [
     description:
       "implemented all the functionalities that a typical bank application has in the backend.",
     image:
-      "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/10/16/Photos/Incoming/IndusInd-kTRG--621x414@LiveMint.jpg",
+      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Boot",
       "Spring MVC",
