@@ -8,7 +8,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I'm a final-year CSE student with a strong passion for full-stack development, React, and system design. I love exploring new technologies and solving complex problems. My ability to quickly learn and adapt sets me apart, and I’m always eager to build something impactful.",
+    "I'm a final-year CSE student with a strong passion for full-stack development, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
   github: "https://github.com/ManavLohabade",
   resume:
     "https://drive.google.com/file/d/1S6UMsJ49B5_UbRQ_9D_xP90SToZ1H3LO/view?usp=sharing",
@@ -17,6 +17,12 @@ export const Bio = {
   insta: "https://www.instagram.com/Manavuff",
   topmate: "https://topmate.io/shiva_mishra/",
 };
+
+
+
+
+
+
 
 export const skills = [
   {
@@ -136,7 +142,7 @@ export const skills = [
     skills: [
       {
         name: "Docker",
-        image: "https://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        image: "	https://www.docker.com/app/uploads/2023/08/logo-guide-logos-2.svg://wiki.hornbill.com/images/7/70/Docker_logo.png",
       },
       {
         name: "Kubernetes",
@@ -328,7 +334,7 @@ export const education = [
 
   {
     id: 1,
-    img: "https://scontent.fpnq13-1.fna.fbcdn.net/v/t39.30808-6/308456753_468764248599993_6242586617585441677_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=nJe8a5vOVmkQ7kNvgEvU8JU&_nc_zt=23&_nc_ht=scontent.fpnq13-1.fna&_nc_gid=AOVgovjH_yBT8mQMroka8GP&oh=00_AYBE6HS2n-JFuLJ_0hjkeWCTB6fG83jOE0gj0UrU5DlZZA&oe=6789EF64",
+    img: "https://saipoly.org.in/shrisaipoly/img/logo-r.png",
     school: "Sai Polytechnic College Chandrapur",
     date: "Jul 2019- Mar 2022",
     desc: "I completed a 3-year Diploma in Computer Engineering at Shri Sai Polytechnic, focusing on programming, web development, networking, and hardware. It provided hands-on experience and sparked my passion for technology.",
@@ -356,7 +362,7 @@ export const projects = [
     "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
+    github: "#",
     webapp: "https://podstream.netlify.app/",
   },
   {
@@ -375,7 +381,7 @@ export const projects = [
       "Apache Camel",
     ],
     
-    github: "https://github.com/HimanshuSingour/UPI-Payment-Application",
+    github: "#",
   },
   {
     id: 2,
@@ -393,7 +399,7 @@ export const projects = [
       "Apache Camel",
     ],
     github:
-      "https://github.com/HimanshuSingour/India-RailwayWise-Your-Journey-Our-Management",
+      "#",
   },
   {
     id: 3,
@@ -413,7 +419,7 @@ export const projects = [
       "MongosDb",
     ],
 
-    github: "https://github.com/HimanshuSingour/Flight-Booking-Application-",
+    github: "#",
   },
   {
     id: 10,
@@ -431,7 +437,7 @@ export const projects = [
       "Apache Camel",
     ],
 
-    github: "https://github.com/HimanshuSingour/MovieMate",
+    github: "#",
   },
 
   {
@@ -450,7 +456,7 @@ export const projects = [
       "Apache Camel",
     ],
     github:
-      "https://github.com/HimanshuSingour/Hotel-Management-Microservice-SpringBoot",
+      "#",
   },
   {
     id: 6,
@@ -468,7 +474,7 @@ export const projects = [
       "Apache Kafka",
     ],
     github:
-    "https://github.com/HimanshuSingour/Google-Pay-Payment-Application-",
+    "#",
   },
   {
     id: 9,
@@ -491,7 +497,7 @@ export const projects = [
       "Microservices",
     ],
     category: "web app",
-    github: "https://github.com/HimanshuSingour/Bank-Of-Bharat-BOB",
+    github: "#",
   },
 ];
 
