@@ -1,4 +1,4 @@
-import AnkHubLogo from '../images/AnkHubLogo.jpg'
+import AnkHubLogo from "../images/AnkHubLogo.jpg";
 export const Bio = {
   name: "Manav Lohabade",
   roles: [
@@ -18,17 +18,10 @@ export const Bio = {
   topmate: "https://topmate.io/shiva_mishra/",
 };
 
-
-
-
-
-
-
 export const skills = [
   {
     title: "Frontend",
     skills: [
-      
       {
         name: "Bootstrap",
         image:
@@ -36,7 +29,8 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/768px-Tailwind_CSS_Logo.svg.png?20230715030042",
       },
       {
         name: "React Js",
@@ -71,18 +65,17 @@ export const skills = [
       },
       {
         name: "Node Js",
-        image:
-          "https://nodejs.org/static/images/logo.svg",
+        image: "https://nodejs.org/static/images/logo.svg",
       },
       {
         name: "Express Js",
         image:
-        "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
       },
       {
         name: "MongoDB",
         image:
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
         name: "Django",
@@ -97,7 +90,7 @@ export const skills = [
       {
         name: "Microservices",
         image:
-        "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
+          "https://t4.ftcdn.net/jpg/03/85/29/69/360_F_385296927_b9V4skbl94TzxL8AiVAMGdpp9hFeZat0.jpg",
       },
     ],
   },
@@ -110,12 +103,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
       },
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      
       {
         name: "Python",
         image:
@@ -135,6 +122,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      },
     ],
   },
   {
@@ -142,7 +134,8 @@ export const skills = [
     skills: [
       {
         name: "Docker",
-        image: "	https://www.docker.com/app/uploads/2023/08/logo-guide-logos-2.svg://wiki.hornbill.com/images/7/70/Docker_logo.png",
+        image:
+          "	https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
       },
       {
         name: "Kubernetes",
@@ -158,11 +151,6 @@ export const skills = [
         name: "Linux",
         image:
           "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
-      },
-      {
-        name: "Jenkins CI/CD",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
       },
     ],
   },
@@ -185,10 +173,10 @@ export const skills = [
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
-      // {
-      //   name: "Railway.app",
-      //   image: "https://railway.app/brand/logo-light.png",
-      // },
+      {
+        name: "Vercel",
+        image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
+      },
       {
         name: "VS Code",
         image:
@@ -196,8 +184,7 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+        image: "https://www.svgrepo.com/show/354202/postman-icon.svg",
       },
 
       {
@@ -358,8 +345,7 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "A full-stack web app that mimics Uber's functionality. Users can book rides, track them in real-time, and pay for them using the app. The app also includes a driver's view, where drivers can accept rides and navigate to the user's location.",
-    image: 
-    "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "#",
@@ -367,39 +353,34 @@ export const projects = [
   },
   {
     id: 1,
-    title: "UPI Payment Application",
-    date: "Oct 2022 - Present",
+    title: "FrameCode",
+    date: "Dec 2024 - Jan 2025",
     description:
-      "UPI payment backend, built on Spring Boot and Microservices, integrates design patterns for streamlined operations and security.",
-    image:
-      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+      "FrameCode is a modern developer tool designed to enhance productivity and streamline coding workflows. Built with a sleek UI, it offers efficient code organization, real-time collaboration, and seamless integration with popular frameworks. With a focus on performance and usability, FrameCode helps developers write, manage, and deploy code effortlessly.",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
+      "React Js",
+      "TailwindCSS",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Redux",
     ],
-    
-    github: "#",
+    category: "web app",
+    github: "https://github.com/ManavLohabade/FrameCode",
+    webapp: "https://framecode.vercel.app/",
   },
   {
     id: 2,
-    title: "RailWay Application",
-    date: "Jan 2023 - Mar 2023",
+    title: "Fake News Detection System",
+    date: "Dec 2023 - Present",
     description:
-    "Made a railway app like India's own, with all the features you'd expect. Book tickets, check schedules, and travel hassle-free",
-    image:
-      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
-    ],
-    github:
-      "#",
+      "A machine learning-powered web application that detects and classifies fake news articles. The system analyzes textual content using NLP techniques and supervised learning models to determine the authenticity of news. Designed for journalists, researchers, and general users to combat misinformation.",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    tags: ["Python", "Flask", "Machine Learning", "NLP", "Scikit-Learn"],
+    category: "AI/ML",
+    github: "https://github.com/ManavLohabade/Fake-News-Detection-System",
+    webapp: "#",
   },
   {
     id: 3,
@@ -407,8 +388,7 @@ export const projects = [
     date: "Dec 2021 - Apr 2022",
     description:
       "Built a flight booking app for easy travel planning. Book seats, check flights – all in one place",
-    image:
-      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -427,8 +407,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Meet Movi Mate: Your go-to for movies. Find, book, and enjoy your favorite films effortlessly.",
-    image:
-     "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -446,8 +425,7 @@ export const projects = [
     date: "Jun 2021",
     description:
       " Meet our Hotel Management System: It handles everything from bookings to checkouts. Easily manage reservations, room assignments, and guest services, making hotel operations smooth as silk.",
-    image:
-     "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Framework",
       "Micorservice Arcticture",
@@ -455,17 +433,15 @@ export const projects = [
       "Apache Kafka",
       "Apache Camel",
     ],
-    github:
-      "#",
+    github: "#",
   },
   {
     id: 6,
     title: "Google Pay Application",
     date: "Jun 2021",
     description:
-    "A versatile payment application inspired by the original. With features like money transfer, bill splitting, shopping, rewards, and intuitive financial management, our app mirrors the convenience and functionality of Google Pay, ensuring seamless transactions for users",
-    image:
-    "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+      "A versatile payment application inspired by the original. With features like money transfer, bill splitting, shopping, rewards, and intuitive financial management, our app mirrors the convenience and functionality of Google Pay, ensuring seamless transactions for users",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Apache Camel",
       "Spring Framework",
@@ -473,8 +449,7 @@ export const projects = [
       "Design Patterns",
       "Apache Kafka",
     ],
-    github:
-    "#",
+    github: "#",
   },
   {
     id: 9,
@@ -482,8 +457,7 @@ export const projects = [
     date: "Jun 2023 - Aug 2023",
     description:
       "implemented all the functionalities that a typical bank application has in the backend.",
-    image:
-      "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
     tags: [
       "Spring Boot",
       "Spring MVC",
