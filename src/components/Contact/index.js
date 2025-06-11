@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Snackbar, Alert } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -123,23 +123,37 @@ const ContactButton = styled.input`
 
 
 const Contact = () => {
-
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [error, setError] = React.useState(false);
+  const [errorMessage, setErrorMessage] = React.useState('');
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_cb9uvf1', 'template_io55zmv', form.current, '_J3CZczmsFWEOvlVX')
+    
+    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+
+    if (!serviceID || !templateID || !userID) {
+      setError(true);
+      setErrorMessage('Email sending credentials are not configured. Please check your .env file.');
+      console.error('EmailJS credentials missing from environment variables.');
+      return;
+    }
+
+    emailjs.sendForm(serviceID, templateID, form.current, userID)
       .then((result) => {
         setOpen(true);
+        setError(false);
         form.current.reset();
       }, (error) => {
-        console.log(error.text);
+        setError(true);
+        setErrorMessage(error.text || 'Failed to send email. Please try again.');
+        console.error('EmailJS error:', error);
       });
   }
-
-
 
   return (
     <Container>
@@ -148,19 +162,30 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+          onClose={() => setOpen(false)}
+        >
+          <Alert severity="success" onClose={() => setOpen(false)}>
+            Email sent successfully!
+          </Alert>
+        </Snackbar>
+        <Snackbar
+          open={error}
+          autoHideDuration={6000}
+          onClose={() => setError(false)}
+        >
+          <Alert severity="error" onClose={() => setError(false)}>
+            {errorMessage}
+          </Alert>
+        </Snackbar>
       </Wrapper>
     </Container>
   )

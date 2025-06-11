@@ -1,21 +1,26 @@
 import AnkHubLogo from "../images/AnkHubLogo.jpg";
+import GitIntel from "../images/Git-intel.jpg";
+import FrameCode from "../images/Framecode.jpg";
+import NeedOfTheHR from "../images/NeedOfTheHR.jpg";
+import FakeNews from "../images/Fake-News.jpg";
+import SynergySphere from "../images/Synergy-sphere.jpg";
 export const Bio = {
   name: "Manav Lohabade",
   roles: [
     "Full Stack Developer",
     "Backend Developer",
     "Frontend Developer",
-    "Programmer",
+    "Project Manager",
   ],
   description:
-    "I'm a final-year CSE student with a strong passion for full-stack development, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
+    "I'm a final-year CSE student with a strong passion for full-stack development, DevOps, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
   github: "https://github.com/ManavLohabade",
   resume:
     "https://drive.google.com/file/d/1S6UMsJ49B5_UbRQ_9D_xP90SToZ1H3LO/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/manav-lohabade/",
   twitter: "https://twitter.com/BuildWithManav",
   insta: "https://www.instagram.com/Manavuff",
-  topmate: "https://topmate.io/shiva_mishra/",
+  topmate: "#",
 };
 
 export const skills = [
@@ -36,6 +41,10 @@ export const skills = [
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Next JS",
+        image: "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
       },
       {
         name: "Redux",
@@ -59,11 +68,6 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
@@ -76,6 +80,11 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image:
+          "https://c0.klipartz.com/pngpicture/941/480/gratis-png-sistema-de-gestion-de-bases-de-datos-relacionales-postgresql-software.png",
       },
       {
         name: "Django",
@@ -126,6 +135,11 @@ export const skills = [
         name: "TypeScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      },
+      {
+        name: "Solidity",
+        image:
+          "https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
       },
     ],
   },
@@ -202,11 +216,6 @@ export const skills = [
         image:
           "https://w7.pngwing.com/pngs/301/722/png-transparent-adobe-logo-logos-photoshop-logos-and-brands-icon.png",
       },
-      // {
-      //   name: "Offset Explorer 2 (Kafka)",
-      //   image:
-      //     "https://static.macupdate.com/products/53532/l/offset-explorer-logo.png?v=1633349541",
-      // },
     ],
   },
 ];
@@ -215,108 +224,45 @@ export const experiences = [
   {
     id: 0,
     img: AnkHubLogo,
-    role: "Jr. Software Engineer Intern",
+    role: "Software Engineer Intern",
     company: "AnkHub Technology Services",
     date: "Dec 2024 - Present",
-    desc: "Currently pursuing six months Internship",
+    desc: "Built and deployed a full-stack web portal using the MERN stack, handled backend integration, configured Docker, NGINX, and PM2 for deployment, and automated CI/CD with GitHub Actions. Conducted R&D to enhance performance and scalability, and tested the system using Jest and Postman to ensure stability and reliability.",
     skills: [
       "React Js",
       "Angular Js",
-      "Node Js",
+      "Node.js",
+      "Express",
       "JavaScript",
       "MongoDB",
       "Web Design",
       "Bootstrap",
       "MUI",
-      "Wordpress",
     ],
   },
   {
     id: 1,
     img: "https://bizleap.in/wp-content/uploads/2024/08/Logo_1-removebg-preview.png",
-    role: "Digital Marketing Intern",
-    company: "Bizleap - Digital Marketing Agency",
-    date: "Nov 2023 - Jan 2024",
-    desc: "Worked on SEO, SMM, and Email Marketing. I was the top performer in the internship.",
+    role: "Fontend Developer Intern",
+    company: "Bizleap. Inc",
+    date: "Feb 2024 - April 2024",
+    desc: "Designed and developed responsive landing pages using HTML, Tailwind CSS, and JavaScript, and built dynamic websites with Wix and WordPress.",
     skills: [
-      "Digital Advertising",
-      "Email Marketing",
-      "Market Research",
-      "SEO Knowledge",
-      "Meta Business Suite",
+      "React Js",
+      "JavaScript",
+      "TailwindCSS",
+      "Wix Builder",
+      "WordPress",
     ],
   },
 ];
-//   {
-//     id: 2,
-//     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMFfnN6owFBveI0QvzutR-6AuTLCvzCgVEo__G25fIA&s",
-//     role: "Java backend Developer",
-//     company: "Suven consultants and private limited",
-//     date: "June 2022 - Dec 2022",
-//     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the internship.",
-//     skills: [
-//       "Java",
-//       "Spring Framework",
-//       "Microservice",
-//       "Docker",
-//       "Apache Camel",
-//       "Angular Js",
-//       "Junit",
-//     ],
-//   },
-
-//   {
-//     id: 3,
-//     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyqBxDE8sNkJsU3SfmU0woeP3bHGoL37wBuEkRV_dqg&s",
-//     role: "Java Backend Devloper",
-//     company: "AlgorithmXlr8.org",
-//     date: "June 2023 - Mar 2024",
-//     desc: "Built an Coding Platform full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-//     skills: [
-//       "NextJs",
-//       "Redux",
-//       "SadCn",
-//       "Material UI",
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//       "Docker",
-//       "AWS",
-//       "MongoDB",
-//       "Spring Framework",
-//       "Spring Microservices",
-//       "kafka",
-//       "Mysql"
-//     ],
-//   },
-
-//   {
-//     id: 4,
-//     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSADlmdpwvwazAsMWIgPTKhn7LlgfkmvDr03KvetGuK2Q&s",
-//     role: "Mentor",
-//     company: "Topmate.io",
-//     date: "Aug 2023 - Present",
-//     desc: "Top 1% At this Platfome, Guided over 90+ individuals in DSA, coding, and development, with numbers continuously increasing",
-//     skills: [
-//       "Career Guidance",
-//       "DSA Start From Scratch",
-//       "Development Start From Scratch",
-//       "Linkedin Review",
-//       "Resume Review etc",
-
-//     ],
-
-//   },
-
-// ];
-
 export const education = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/en/f/f5/G.H._Raisoni_University_logo.png",
     school: "G H Raisoni University Amravati",
     date: "Dec 2022 - May 2025",
-    desc: "I'm currently pursuing my Bachelor's degree in Computer Science Engineering at G H Raisoni University. As part of my coursework, I've taken subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I'm currently pursuing my Bachelor's degree in Computer Science Engineering at G H Raisoni University. As part of my coursework, I've taken subjects such as Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
   },
 
   {
@@ -341,23 +287,73 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Uber End-to-End Clone",
-    date: "Apr 2023 - May 2023",
+    title: "Git-Intel",
+    date: "May 2025 - June 2025",
     description:
-      "A full-stack web app that mimics Uber's functionality. Users can book rides, track them in real-time, and pay for them using the app. The app also includes a driver's view, where drivers can accept rides and navigate to the user's location.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "Git Intel is an advanced intelligence platform that provides deep insights into GitHub organizations and repositories. It leverages AI-driven analytics to assess authority levels, track project involvement, and summarize key discussions using state-of-the-art machine learning models.",
+    image: GitIntel,
+    tags: [
+      "TypeScript",
+      "Next Js",
+      "TRPC",
+      "NextAuth Js",
+      "Prisma",
+      "PostgresSQL",
+      "AssemblyAI",
+      "Shadcn UI",
+      "Neon.Tech",
+    ],
     category: "web app",
-    github: "#",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/ManavLohabade/Git-Intel",
+    webapp: "https://git-intel-7teq.onrender.com/",
   },
   {
     id: 1,
+    title: "Synergy-Sphere",
+    date: "June 2025",
+    description:
+      "A AI-powered NFT art platform that enables users to generate,customize, and mint unique digital artworks as NFTs on the Aptos blockchain. Integrates advance AI models like DALL-E , DeepAI) for art generation, supports secure wallet connections like Petra and Marian.",
+    image: SynergySphere,
+    tags: [
+      "React (TypeScript)",
+      "Node.js",
+      "TailwindCSS",
+      "Express",
+      "Aptos Blockchain",
+      "Move",
+      "OpenAI/DALL-E",
+      "DeepAI",
+      "IPFS",
+    ],
+    category: "web app",
+    github: "https://github.com/ManavLohabade/Git-Intel",
+    webapp: "https://git-intel-7teq.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "NeedOfTheHR",
+    date: "May 2025",
+    description:
+      "NeedOfTheHR is an innovative AI-powered HR assistant that revolutionizes the recruitment process. It leverages cutting-edge AI technologies to analyze resumes, evaluate candidates, and streamline the hiring workflow",
+    image: NeedOfTheHR,
+    tags: [
+      "React Js",
+      "TypeScript",
+      "Node Js",
+      "Express Js",
+      "RAG",
+      "Supabase",
+    ],
+
+    github: "https://github.com/ManavLohabade/NeedOfTheHR",
+  },
+  {
+    id: 3,
     title: "FrameCode",
     date: "Dec 2024 - Jan 2025",
     description:
       "FrameCode is a modern developer tool designed to enhance productivity and streamline coding workflows. Built with a sleek UI, it offers efficient code organization, real-time collaboration, and seamless integration with popular frameworks. With a focus on performance and usability, FrameCode helps developers write, manage, and deploy code effortlessly.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: FrameCode,
     tags: [
       "React Js",
       "TailwindCSS",
@@ -371,114 +367,15 @@ export const projects = [
     webapp: "https://framecode.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Fake News Detection System",
     date: "Dec 2023 - Present",
     description:
       "A machine learning-powered web application that detects and classifies fake news articles. The system analyzes textual content using NLP techniques and supervised learning models to determine the authenticity of news. Designed for journalists, researchers, and general users to combat misinformation.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
+    image: FakeNews,
     tags: ["Python", "Flask", "Machine Learning", "NLP", "Scikit-Learn"],
     category: "AI/ML",
     github: "https://github.com/ManavLohabade/Fake-News-Detection-System",
     webapp: "#",
   },
-  {
-    id: 3,
-    title: "InfyGo Flight Booking System",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "Built a flight booking app for easy travel planning. Book seats, check flights – all in one place",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
-      "Mysql",
-      "MongosDb",
-    ],
-
-    github: "#",
-  },
-  {
-    id: 10,
-    title: "Movie Mate",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Meet Movi Mate: Your go-to for movies. Find, book, and enjoy your favorite films effortlessly.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
-    ],
-
-    github: "#",
-  },
-
-  {
-    id: 5,
-    title: "Hotel Management",
-    date: "Jun 2021",
-    description:
-      " Meet our Hotel Management System: It handles everything from bookings to checkouts. Easily manage reservations, room assignments, and guest services, making hotel operations smooth as silk.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Spring Framework",
-      "Micorservice Arcticture",
-      "Design Patterns",
-      "Apache Kafka",
-      "Apache Camel",
-    ],
-    github: "#",
-  },
-  {
-    id: 6,
-    title: "Google Pay Application",
-    date: "Jun 2021",
-    description:
-      "A versatile payment application inspired by the original. With features like money transfer, bill splitting, shopping, rewards, and intuitive financial management, our app mirrors the convenience and functionality of Google Pay, ensuring seamless transactions for users",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Apache Camel",
-      "Spring Framework",
-      "Micorservice",
-      "Design Patterns",
-      "Apache Kafka",
-    ],
-    github: "#",
-  },
-  {
-    id: 9,
-    title: "Bank Of Bharat (BOB)",
-    date: "Jun 2023 - Aug 2023",
-    description:
-      "implemented all the functionalities that a typical bank application has in the backend.",
-    image: "https://www.crmcrate.com/wp-content/uploads/2022/08/image-61.png",
-    tags: [
-      "Spring Boot",
-      "Spring MVC",
-      "Hibernate",
-      "Spring Cloud",
-      "Spring Data",
-      "CI/CD",
-      "Apache Camel",
-      "MongoDb",
-      "Msql",
-      "Microservices",
-    ],
-    category: "web app",
-    github: "#",
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
