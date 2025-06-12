@@ -4,6 +4,7 @@ import FrameCode from "../images/Framecode.jpg";
 import NeedOfTheHR from "../images/NeedOfTheHR.jpg";
 import FakeNews from "../images/Fake-News.jpg";
 import SynergySphere from "../images/Synergy-sphere.jpg";
+import Uber from "../images/uber.jpg";
 export const Bio = {
   name: "Manav Lohabade",
   roles: [
@@ -16,7 +17,7 @@ export const Bio = {
     "I'm a final-year CSE student with a strong passion for full-stack development, DevOps, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
   github: "https://github.com/ManavLohabade",
   resume:
-    "https://drive.google.com/file/d/1S6UMsJ49B5_UbRQ_9D_xP90SToZ1H3LO/view?usp=sharing",
+    "https://drive.google.com/file/d/1fJbSlReJ3LUADvC4Ta1swFblTGXtZ0h9/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/manav-lohabade/",
   twitter: "https://twitter.com/BuildWithManav",
   insta: "https://www.instagram.com/Manavuff",
@@ -368,6 +369,17 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Uber end-to-end",
+    date: "Jan 2023 - Feb 2023",
+    description:
+      "A full-stack ride-hailing application inspired by Uber, implementing both rider and driver functionalities. The platform enables users to book rides, track driver location in real-time and manage trip details through an intuitive interface.",
+    image: Uber,
+    tags: ["React JS", "Node.js", "Express", "MongoDB", "Socket.io","JWT", "Google Map API"],
+    github: "https://github.com/ManavLohabade/Uber-end-to-end",
+    webapp: "#",
+  },
+  {
+    id: 5,
     title: "Fake News Detection System",
     date: "Dec 2023 - Present",
     description:
