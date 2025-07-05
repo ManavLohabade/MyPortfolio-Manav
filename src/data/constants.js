@@ -145,6 +145,36 @@ export const skills = [
     ],
   },
   {
+    title: "Cloud Platforms",
+    skills: [
+      {
+        name: "AWS",
+        image:
+          "	https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+      },
+      {
+        name: "Azure",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+      },
+      {
+        name: "GCP",
+        image:
+          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+      },
+      {
+        name: "Firebase",
+        image:
+          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+      },
+      {
+        name: "Supabase",
+        image:
+          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+      },
+    ],
+  },
+  {
     title: "Devops",
     skills: [
       {
@@ -158,12 +188,12 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
       },
       {
-        name: "AWS",
+        name: "Jenkins",
         image:
           "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
       },
       {
-        name: "Linux",
+        name: "CircleCI",
         image:
           "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
       },
@@ -326,9 +356,9 @@ export const projects = [
       "DeepAI",
       "IPFS",
     ],
-    category: "web app",
-    github: "https://github.com/ManavLohabade/Git-Intel",
-    webapp: "https://git-intel-7teq.onrender.com/",
+    category: "Dapp",
+    github: "https://github.com/ManavLohabade/SYNERGY-SPHERE",
+    webapp: "https://synergy-sphere-marketplace.vercel.app/",
   },
   {
     id: 2,
@@ -347,6 +377,7 @@ export const projects = [
     ],
 
     github: "https://github.com/ManavLohabade/NeedOfTheHR",
+    webapp: "https://needofthehr.vercel.app",
   },
   {
     id: 3,
