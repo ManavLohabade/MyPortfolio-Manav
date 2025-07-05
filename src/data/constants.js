@@ -11,10 +11,10 @@ export const Bio = {
     "Full Stack Developer",
     "Backend Developer",
     "Frontend Developer",
-    "Project Manager",
+    "Product Manager",
   ],
   description:
-    "I'm a final-year CSE student with a strong passion for full-stack development, DevOps, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
+    "I'm a Computer Science Engineering graduate with a strong passion for full-stack development, DevOps, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
   github: "https://github.com/ManavLohabade",
   resume:
     "https://drive.google.com/file/d/1fJbSlReJ3LUADvC4Ta1swFblTGXtZ0h9/view?usp=drive_link",
@@ -50,12 +50,12 @@ export const skills = [
       {
         name: "Redux",
         image:
-          "https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png",
+          "https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png",
       },
       {
         name: "Material UI",
         image:
-          "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
+          "https://w7.pngwing.com/pngs/761/513/png-transparent-material-ui-logo.png",
       },
       {
         name: "Angular",
@@ -95,7 +95,7 @@ export const skills = [
       {
         name: "Flask",
         image:
-          "https://static-00.iconduck.com/assets.00/flask-icon-399x512-v0hqbifs.png",
+          "	https://icon.icepanel.io/Technology/png-shadow-512/Flask.png",
       },
       {
         name: "Microservices",
@@ -129,8 +129,7 @@ export const skills = [
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        image:"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       },
       {
         name: "TypeScript",
@@ -138,9 +137,16 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
       },
       {
+        name: "Bash",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/512px-Bash_Logo_Colored.svg.png?20180723054350",
+      },
+      {
+        name: "Go",
+        image: "https://w7.pngwing.com/pngs/566/160/png-transparent-golang-hd-logo.png",
+      },
+      {
         name: "Solidity",
-        image:
-          "https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
+        image:"https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
       },
     ],
   },
@@ -150,27 +156,27 @@ export const skills = [
       {
         name: "AWS",
         image:
-          "	https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/120px-Amazon_Web_Services_Logo.svg.png",
       },
       {
         name: "Azure",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png",
+          "https://brandlogo.org/wp-content/uploads/2025/04/Microsoft-Azure-Logo-2021.png.webp",
       },
       {
         name: "GCP",
         image:
-          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+          "	https://www.geekandjob.com/uploads/wiki/a73a9257693d0f4bee6f7a62a5f352eea0937c41.png",
       },
       {
         name: "Firebase",
         image:
-          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+          "	https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png",
       },
       {
         name: "Supabase",
         image:
-          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+          "	https://images.seeklogo.com/logo-png/43/1/supabase-logo-png_seeklogo-435677.png",
       },
     ],
   },
@@ -190,12 +196,12 @@ export const skills = [
       {
         name: "Jenkins",
         image:
-          "https://www.pngall.com/wp-content/uploads/13/AWS-Logo-PNG-File.png",
+          "https://w7.pngwing.com/pngs/122/347/png-transparent-jenkins-continuous-integration-continuous-delivery-ci-cd-computer-software-others-hand-logo-cartoon.png",
       },
       {
         name: "CircleCI",
         image:
-          "https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/104px-Circleci-icon-logo.svg.png?20170627173844",
       },
     ],
   },
@@ -210,7 +216,7 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://static-00.iconduck.com/assets.00/gitlab-icon-1024x942-f30d1qro.png",
+          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
 
       {
@@ -221,11 +227,6 @@ export const skills = [
       {
         name: "Vercel",
         image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
         name: "Postman",
@@ -258,7 +259,7 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "AnkHub Technology Services",
     date: "Dec 2024 - Present",
-    desc: "Built and deployed a full-stack web portal using the MERN stack, handled backend integration, configured Docker, NGINX, and PM2 for deployment, and automated CI/CD with GitHub Actions. Conducted R&D to enhance performance and scalability, and tested the system using Jest and Postman to ensure stability and reliability.",
+    desc: "Built and deployed full-stack web portals using the MERN stack, handled backend integration, configured Docker, NGINX, and PM2 for deployment, and automated CI/CD with GitHub Actions. Conducted R&D to enhance performance and scalability, and tested the system using Jest and Postman to ensure stability and reliability.",
     skills: [
       "React Js",
       "Angular Js",
@@ -293,7 +294,7 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/f/f5/G.H._Raisoni_University_logo.png",
     school: "G H Raisoni University Amravati",
     date: "Dec 2022 - May 2025",
-    desc: "I'm currently pursuing my Bachelor's degree in Computer Science Engineering at G H Raisoni University. As part of my coursework, I've taken subjects such as Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I have completed my Bachelor's degree in Computer Science Engineering at G H Raisoni University. As part of my coursework, I've taken subjects such as Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
   },
 
   {
