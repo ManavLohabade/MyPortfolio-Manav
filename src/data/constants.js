@@ -9,12 +9,11 @@ export const Bio = {
   name: "Manav Lohabade",
   roles: [
     "Full Stack Developer",
-    "Backend Developer",
-    "Frontend Developer",
-    "Product Manager",
+    "Blockchain Developer",
+    "Architecture Specialist",
   ],
   description:
-    "I'm a Computer Science Engineering graduate with a strong passion for full-stack development, DevOps, system design and web3. My passion lies in the exciting worlds of Web3 and Web2 technologies and contributing to open-source projects. I love exploring new technologies and solving complex problems.",
+    "I'm a Computer Science Engineering graduate specializing in full-stack development and blockchain technology. With expertise spanning both Web2 and Web3 ecosystems, I excel in building scalable applications, smart contracts, and decentralized solutions. My passion lies in leveraging cutting-edge technologies to solve complex problems and contributing to innovative open-source projects that drive the future of digital infrastructure.",
   github: "https://github.com/ManavLohabade",
   resume:
     "https://drive.google.com/file/d/1fJbSlReJ3LUADvC4Ta1swFblTGXtZ0h9/view?usp=drive_link",
@@ -147,6 +146,14 @@ export const skills = [
       {
         name: "Solidity",
         image:"https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
+      },
+      {
+        name: "Rust",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/106px-Rust_programming_language_black_logo.svg.png?20220508043311",
+      },
+      {
+        name: "Move",
+        image:"https://miro.medium.com/v2/resize:fit:875/1*RoLclgzfvZFBAFs2YxcczQ.png",
       },
     ],
   },
@@ -294,7 +301,7 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/f/f5/G.H._Raisoni_University_logo.png",
     school: "G H Raisoni University Amravati",
     date: "Dec 2022 - May 2025",
-    desc: "I have completed my Bachelor's degree in Computer Science Engineering at G H Raisoni University. As part of my coursework, I've taken subjects such as Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I have completed my Bachelor's degree in Computer Science Engineering at GH Raisoni University. As part of my coursework, I've taken subjects such as Data Structures Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
   },
 
   {
