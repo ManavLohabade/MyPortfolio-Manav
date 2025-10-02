@@ -19,7 +19,7 @@ export const Bio = {
     "I'm a Computer Science Engineering graduate specializing in full-stack development and blockchain technology. With expertise spanning both Web2 and Web3 ecosystems, I excel in building scalable applications, smart contracts, and decentralized solutions. My passion lies in leveraging cutting-edge technologies to solve complex problems and contributing to innovative open-source projects that drive the future of digital infrastructure.",
   github: "https://github.com/ManavLohabade",
   resume:
-    "https://drive.google.com/file/d/1fJbSlReJ3LUADvC4Ta1swFblTGXtZ0h9/view?usp=drive_link",
+    "https://drive.google.com/file/d/1nSVskJKVnSneu1yzVTTDOHSe1JRKbR1v/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/manav-lohabade/",
   twitter: "https://twitter.com/BuildWithManav",
   insta: "https://www.instagram.com/Manavuff",
