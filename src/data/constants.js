@@ -5,6 +5,9 @@ import NeedOfTheHR from "../images/NeedOfTheHR.jpg";
 import FakeNews from "../images/Fake-News.jpg";
 import SynergySphere from "../images/Synergy-sphere.jpg";
 import Uber from "../images/uber.jpg";
+import Clipo from "../images/Clipo.jpg";
+import Aptosphere from "../images/Aptosphere.jpg";
+import Oneinch from "../images/1inch.jpg";
 export const Bio = {
   name: "Manav Lohabade",
   roles: [
@@ -93,8 +96,7 @@ export const skills = [
       },
       {
         name: "Flask",
-        image:
-          "	https://icon.icepanel.io/Technology/png-shadow-512/Flask.png",
+        image: "	https://icon.icepanel.io/Technology/png-shadow-512/Flask.png",
       },
       {
         name: "Microservices",
@@ -128,7 +130,8 @@ export const skills = [
       },
       {
         name: "JavaScript",
-        image:"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       },
       {
         name: "TypeScript",
@@ -137,23 +140,28 @@ export const skills = [
       },
       {
         name: "Bash",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/512px-Bash_Logo_Colored.svg.png?20180723054350",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/512px-Bash_Logo_Colored.svg.png?20180723054350",
       },
       {
         name: "Go",
-        image: "https://w7.pngwing.com/pngs/566/160/png-transparent-golang-hd-logo.png",
+        image:
+          "https://w7.pngwing.com/pngs/566/160/png-transparent-golang-hd-logo.png",
       },
       {
         name: "Solidity",
-        image:"https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
+        image:
+          "https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg",
       },
       {
         name: "Rust",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/106px-Rust_programming_language_black_logo.svg.png?20220508043311",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/106px-Rust_programming_language_black_logo.svg.png?20220508043311",
       },
       {
         name: "Move",
-        image:"https://miro.medium.com/v2/resize:fit:875/1*RoLclgzfvZFBAFs2YxcczQ.png",
+        image:
+          "https://miro.medium.com/v2/resize:fit:875/1*RoLclgzfvZFBAFs2YxcczQ.png",
       },
     ],
   },
@@ -222,8 +230,7 @@ export const skills = [
       },
       {
         name: "GitHub",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
 
       {
@@ -262,10 +269,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://www.adainsys.com/images/Adainsys_logo.jpg",
+    role: "Software Engineer-1 (Contract)",
+    company: "Ada Insys Private Limited",
+    date: "July 2025 - Present",
+    desc: "Successfully completed a contract-based role where I took over and finished an existing pending full-stack projects. Built and deployed web portals using the MERN stack, handled backend integration, configured Docker, NGINX, and PM2 for deployment, and automated CI/CD with GitHub Actions.",
+    skills: [
+      "Next Js",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Langchain",
+      "MUI",
+    ],
+  },
+  {
+    id: 1,
     img: AnkHubLogo,
     role: "Software Engineer Intern",
     company: "AnkHub Technology Services",
-    date: "Dec 2024 - Present",
+    date: "Dec 2024 - June 2025",
     desc: "Built and deployed full-stack web portals using the MERN stack, handled backend integration, configured Docker, NGINX, and PM2 for deployment, and automated CI/CD with GitHub Actions. Conducted R&D to enhance performance and scalability, and tested the system using Jest and Postman to ensure stability and reliability.",
     skills: [
       "React Js",
@@ -280,7 +304,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://bizleap.in/wp-content/uploads/2024/08/Logo_1-removebg-preview.png",
     role: "Fontend Developer Intern",
     company: "Bizleap. Inc",
@@ -326,6 +350,79 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Clipo.earn",
+    date: "July 2025 - Present",
+    description:
+      "Clipo.earn is a decentralized campaign platform that transforms social engagement into real earnings. It leverages blockchain-powered payouts and smart analytics to connect brands with creators, track campaign performance, and ensure transparent, fraud-resistant reward distribution through automated contracts. Born out of innovation, Clipo.earn proudly won the Avalanche Team-1 Hackathon, setting the stage for a global SocialFi x DeFi revolution",
+    image: Clipo,
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "NextAuth.js",
+      "Solidity",
+      "Hardhat",
+      "Ethers.js",
+      "Shadcn UI",
+      "TailwindCSS",
+      "Neon.Tech",
+      "Avalanche Fuji",
+      "NeonDB",
+    ],
+    category: "Web3 dapp",
+    github: "https://github.com/ManavLohabade/Clipo",
+    webapp: "#",
+  },
+  {
+    id: 1,
+    title: "Aptosphere",
+    date: "Sept 2025 - Present",
+    description:
+      "Aptosphere is a plug-and-play World State Protocol built on Aptos Move. It acts as a universal state layer that any dApp, game, DeFi protocol, or consumer application can integrate with. By providing a shared, verifiable state machine, it enables complex logic handling like game movements, DeFi order books, payment commitments, and governance states — all without rewriting core state logic. The first showcase integration is a 2-player web game demonstrating how Aptosphere maintains global state seamlessly.",
+    image: Aptosphere,
+    tags: [
+      "Move",
+      "Aptos",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS",
+      "Shadcn UI",
+      "Smart Contracts",
+      "Protocol",
+      "Plug-and-Play Infra",
+    ],
+    category: "protocol",
+    github: "https://github.com/ManavLohabade/Aptosphere",
+    webapp: "https://aptosphere.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "1inch-Apt-Bridge",
+    date: "Jan 2025 - Present",
+    description:
+      "A novel cross-chain bridge enabling atomic swaps between EVM chains (Ethereum, Polygon) and Aptos using HTLC (Hash Time-Locked Contracts) and 1inch Fusion+ integration. Built a complete DeFi infrastructure with smart contracts on both EVM and Aptos, a Node.js relayer service, and a React frontend. The bridge preserves hashlock and timelock functionality for trustless cross-chain token swaps, supporting bidirectional transfers with on-chain execution verification. Features include real-time WebSocket communication, comprehensive API validation, rate limiting, and Docker containerization for production deployment.",
+    image: Oneinch,
+    tags: [
+      "Solidity",
+      "Move",
+      "TypeScript",
+      "React",
+      "WebSocket",
+      "HTLC",
+      "Cross-chain",
+      "1inch API",
+      "Aptos",
+      "Polygon",
+      "Docker",
+      "NeonDB",
+      "Wagmi",
+      "Aptos Wallet Adapter",
+    ],
+    category: "defi",
+    github: "https://github.com/ManavLohabade/1inch-apt-bridge", 
+    webapp: "https://1inch-apt-bridge.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Git-Intel",
     date: "May 2025 - June 2025",
     description:
@@ -347,7 +444,7 @@ export const projects = [
     webapp: "https://git-intel-7teq.onrender.com/",
   },
   {
-    id: 1,
+    id: 4,
     title: "Synergy-Sphere",
     date: "June 2025",
     description:
@@ -369,7 +466,7 @@ export const projects = [
     webapp: "https://synergy-sphere-marketplace.vercel.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "NeedOfTheHR",
     date: "May 2025",
     description:
@@ -388,7 +485,7 @@ export const projects = [
     webapp: "https://needofthehr.vercel.app",
   },
   {
-    id: 3,
+    id: 6,
     title: "FrameCode",
     date: "Dec 2024 - Jan 2025",
     description:
@@ -407,18 +504,26 @@ export const projects = [
     webapp: "https://framecode.vercel.app/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Uber end-to-end",
     date: "Jan 2023 - Feb 2023",
     description:
       "A full-stack ride-hailing application inspired by Uber, implementing both rider and driver functionalities. The platform enables users to book rides, track driver location in real-time and manage trip details through an intuitive interface.",
     image: Uber,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "Socket.io","JWT", "Google Map API"],
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+      "Google Map API",
+    ],
     github: "https://github.com/ManavLohabade/Uber-end-to-end",
     webapp: "#",
   },
   {
-    id: 5,
+    id: 8,
     title: "Fake News Detection System",
     date: "Dec 2023 - Present",
     description:
